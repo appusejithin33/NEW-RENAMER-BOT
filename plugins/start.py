@@ -55,7 +55,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.ABOUT_TXT.format(client.username),
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
-               InlineKeyboardButton("🔒Cʟᴏsᴇ 𝙲𝙻𝙾𝚂𝙴", callback_data = "close")
+               InlineKeyboardButton("🔒Cʟᴏsᴇ", callback_data = "close")
                ]]
             )
         )
@@ -65,7 +65,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.HELP_TXT.format(client.username),
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
-               InlineKeyboardButton("🔒Cʟᴏsᴇ 𝙲𝙻𝙾𝚂𝙴", callback_data = "close")
+               InlineKeyboardButton("🔒Cʟᴏsᴇ", callback_data = "close")
                ]]
             )
         )
