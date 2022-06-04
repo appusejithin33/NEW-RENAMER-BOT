@@ -28,7 +28,7 @@ async def start(client, message):
           InlineKeyboardButton('ℹ️ Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+9o1NJzs67xc5ODA1')
           ],[
           InlineKeyboardButton('🛡️ Aʙᴏᴜᴛ', callback_data='about'),
-          InlineKeyboardButton('ℹ️ Hᴇʟᴘ', callback_data='help')
+          InlineKeyboardButton('ℹ️ Hᴇʟᴘ', callback_data='helpsk')
           ]]
           )
        )
@@ -60,7 +60,7 @@ async def cb_handler(client, query):
             )
         )
 
-    elif data == "help":
+    elif data == "helpsk":
         await query.message.edit_text(
             text=mr.HELP_TXT.format(client.username),
             disable_web_page_preview = True,
