@@ -60,7 +60,7 @@ async def cb_handler(client, query):
             )
         )
 
-    elif data == "helpsk":
+    if data == "helpsk":
         await query.message.edit_text(
             text=mr.HELP_TXT.format(client.username),
             disable_web_page_preview = True,
