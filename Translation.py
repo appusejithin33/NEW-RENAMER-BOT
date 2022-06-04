@@ -25,6 +25,32 @@ class mr(object):
 ├📊 𝐁ᴜɪʟᴅ 𝐒ᴛᴀᴜs : 𝟷.𝟸.𝟶 [ 𝐁ᴇᴛᴀ ]              
 ╰───────────────⍟ </b>
                                  """
+    HELP_TXT = """
+<b>🌌 𝐇𝐎𝐖 𝐓𝐎 𝐒𝐄𝐓 𝐓𝐇𝐔𝐌𝐁𝐍𝐈𝐋𝐄 
+  
+•> /start A Bᴏᴛ Aɴᴅ Sᴇɴᴅ Aɴʏ Pɪᴄᴛᴜʀᴇ Tᴏ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ Sᴇᴛ Tʜᴜᴍʙɴɪʟᴇ.
+•> /delthumb Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Aɴᴅ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Oʟᴅ Tʜᴜᴍʙɴɪʟᴇ.
+•> /viewthumb Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Vɪᴇᴡ Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Tʜᴜᴍʙɴɪʟᴇ.
+
+📑 𝐇𝐎𝐖 𝐓𝐎 𝐒𝐄𝐓 𝐂𝐔𝐒𝐓𝐎𝐌 𝐂𝐀𝐏𝐓𝐈𝐎𝐍 
+•> /set_caption - Sᴇᴛ A Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
+•> /see_caption - Sᴇᴇ Yᴏᴜʀ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
+•> /del_caption - Dᴇʟᴇᴛᴇ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ </b>
+
+ 𝗘𝘅𝗮𝗺𝗽𝗹𝗲 :- <code>/set_caption 📕 File Name: {filename}
+💾 Size: {filesize}
+⏰ Duration: {duration}
+
+@BGM_LinkzZ <code>
+
+<b> ✏️ 𝐇𝐎𝐖 𝐓𝐎 𝐑𝐄𝐍𝐀𝐌𝐄 𝐀 𝐅𝐈𝐋𝐄 
+•> sᴇɴᴅ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ᴄʟɪᴄᴋ ʀᴇɴᴀᴍᴇ ᴏᴘᴛɪᴏɴ ᴀɴᴅ ᴛʏᴘᴇ ɴᴇᴡ ғɪʟᴇ ɴᴀᴍᴇ ᴀɴᴅ 
+ sᴇɴᴅ sᴇʟᴇᴄᴛ [ ᴅᴏᴄᴜᴍᴇɴᴛ, ᴠɪᴅᴇᴏ, ᴀᴜᴅɪᴏ ]👈 ᴄʜᴏɪᴄᴇ ᴛʜɪs.
+
+®️ Mᴀᴅᴇ Wɪᴛʜ ❣️ @KR_Botz & @BGM_LinkzZ 
+⚜️ Bᴏᴛ Aɴʏ Issᴜᴇs Cᴏɴᴛᴀᴄᴛ Mᴇ
+@KR_Admin_bot </b> 
+                    """
 
 
 
