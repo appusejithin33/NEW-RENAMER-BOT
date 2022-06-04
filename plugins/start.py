@@ -48,7 +48,7 @@ async def send_doc(client, message):
 
 
 @Client.on_callback_query()
-async def cb_handler(client, query: CallbackQuery):
+async def cb_handler(client, query):
     data = query.data
     if data == "about":
         await query.message.edit_text(
