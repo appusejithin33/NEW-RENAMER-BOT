@@ -59,6 +59,17 @@ async def cb_handler(client, query: CallbackQuery):
                ]]
             )
         )
+
+    elif data == "help":
+        await query.message.edit_text(
+            text=mr.HELP_TXT.format(client.username),
+            disable_web_page_preview = True,
+            reply_markup=InlineKeyboardMarkup( [[
+               InlineKeyboardButton("🔒Cʟᴏsᴇ 𝙲𝙻𝙾𝚂𝙴", callback_data = "close")
+               ]]
+            )
+        )
+
     elif data == "close":
         await query.message.delete()
         try:
