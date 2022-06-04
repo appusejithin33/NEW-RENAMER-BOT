@@ -28,7 +28,7 @@ async def start(client, message):
           InlineKeyboardButton('ℹ️ Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+9o1NJzs67xc5ODA1')
           ],[
           InlineKeyboardButton('🛡️ Aʙᴏᴜᴛ', callback_data='about'),
-          InlineKeyboardButton('ℹ️ Hᴇʟᴘ',callback_data ='help')
+          InlineKeyboardButton('ℹ️ Hᴇʟᴘ', callback_data='help')
           ]]
           )
        )
@@ -62,32 +62,8 @@ async def cb_handler(client, query):
 
     elif data == "help":
         await query.message.edit_text(
-            text=f"""
-<b>🌌 𝐇𝐎𝐖 𝐓𝐎 𝐒𝐄𝐓 𝐓𝐇𝐔𝐌𝐁𝐍𝐈𝐋𝐄 
-  
-•> /start A Bᴏᴛ Aɴᴅ Sᴇɴᴅ Aɴʏ Pɪᴄᴛᴜʀᴇ Tᴏ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ Sᴇᴛ Tʜᴜᴍʙɴɪʟᴇ.
-•> /delthumb Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Aɴᴅ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Oʟᴅ Tʜᴜᴍʙɴɪʟᴇ.
-•> /viewthumb Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Vɪᴇᴡ Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Tʜᴜᴍʙɴɪʟᴇ.
-
-📑 𝐇𝐎𝐖 𝐓𝐎 𝐒𝐄𝐓 𝐂𝐔𝐒𝐓𝐎𝐌 𝐂𝐀𝐏𝐓𝐈𝐎𝐍 
-•> /set_caption - Sᴇᴛ A Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
-•> /see_caption - Sᴇᴇ Yᴏᴜʀ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
-•> /del_caption - Dᴇʟᴇᴛᴇ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ </b>
-
- 𝗘𝘅𝗮𝗺𝗽𝗹𝗲 :- <code>/set_caption 📕 File Name: {filename}
-💾 Size: {filesize}
-⏰ Duration: {duration}
-
-@BGM_LinkzZ <code>
-
-<b> ✏️ 𝐇𝐎𝐖 𝐓𝐎 𝐑𝐄𝐍𝐀𝐌𝐄 𝐀 𝐅𝐈𝐋𝐄 
-•> Sᴇɴᴅ Aɴʏ Fɪʟᴇ Aɴᴅ Cʟɪᴄᴋ Rᴇɴᴀᴍᴇ Oᴘᴛɪᴏɴ Aɴᴅ Tʏᴘᴇ Nᴇᴡ Fɪʟᴇ Nᴀᴍᴇ Aɴᴅ 
- Sᴇɴᴅ Sᴇʟᴇᴄᴛ [ Dᴏᴄᴜᴍᴇɴᴛ, Vɪᴅᴇᴏ, Aᴜᴅɪᴏ ]👈 Cʜᴏɪᴄᴇ Tʜɪs.
-
-®️ Mᴀᴅᴇ Wɪᴛʜ ❣️ @KR_Botz & @BGM_LinkzZ 
-⚜️ Bᴏᴛ Aɴʏ Issᴜᴇs Cᴏɴᴛᴀᴄᴛ Mᴇ
-@KR_Admin_bot </b> 
-                    """,
+            text=mr.HELP_TXT.format(client.username),
+            disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
                InlineKeyboardButton("🔒Cʟᴏsᴇ", callback_data = "close")
                ]]
